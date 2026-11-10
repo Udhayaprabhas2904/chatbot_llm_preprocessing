@@ -1,0 +1,28 @@
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Generated experiment database
+outputs/*.db
+outputs/*.sqlite
+outputs/*.sqlite3
+
+# Generated reports
+outputs/reports/*
+!outputs/reports/.gitkeep
+
+# Generated charts
+outputs/charts/*
+!outputs/charts/.gitkeep
+
+# IDE
+.vscode/
+.idea/
